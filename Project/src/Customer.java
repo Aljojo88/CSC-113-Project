@@ -2,7 +2,7 @@
 public class Customer{
 
 
-
+//Test comment
 //after edit
 private String Name;
 private String PhoneNum;
