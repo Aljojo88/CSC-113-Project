@@ -78,7 +78,7 @@ public class Spa {
 
 	public boolean isCustomer(String number){
 	   for (int i = 0; i < getNoOfC(); i++){
-              if (number != customer[i].getNumber())
+              if (number != customer[i].getPhoneNum())
 		      return false;
 	      else
 		      return true;
@@ -87,4 +87,4 @@ public class Spa {
    
 }
 
-}
+
