@@ -75,8 +75,15 @@ public class Spa {
 		
 	}
 	
-  
-   
+
+	public boolean isCustomer(String number){
+	   for (int i = 0; i < getNoOfC(); i++){
+              if (number != customer[i].getNumber())
+		      return false;
+	      else
+		      return true;
+	   }
+	}
    
 }
 
