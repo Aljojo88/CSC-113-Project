@@ -64,7 +64,7 @@ return total;
 
 }
 
-public boolean DeleteApp(Appointment A){
+/*public boolean DeleteApp(Appointment A){
 
 
 
@@ -81,8 +81,7 @@ return false;
 
 
 
-}
-
+*/
 public String toString(){
 
 
