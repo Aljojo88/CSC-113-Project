@@ -1,5 +1,5 @@
 
-public class Appointments {
+public class abstract Appointments {
 protected String date;
    protected int time;
 
