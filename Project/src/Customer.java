@@ -93,6 +93,11 @@ str=str + "Your Appointment details:\n" +AppList[i].toString();
 return str;
 }
 
+public String PhoneNum(){
+	return PhoneNum;
+}
+}
+
 
 
 
